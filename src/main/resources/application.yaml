@@ -1,0 +1,12 @@
+server:
+  port: 8266
+spring:
+  application:
+    name: fegin  
+eureka:
+  client:   
+    service-url:
+      defaultZone: http://127.0.0.1:8260/eureka
+feign:
+  hystrix:
+    enabled: true
