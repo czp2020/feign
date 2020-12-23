@@ -15,5 +15,9 @@ public class FeginApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FeginApplication.class, args);
 	}
+	
+	public void show(){
+	
+	}
 
 }
